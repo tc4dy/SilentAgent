@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silent Agent</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Silent Agent</string>
+    <string name="main_subtitle">Mikrofon Gizlilik Koruması</string>
+    <string name="service_status_label">Servis Durumu</string>
+    <string name="service_active">Aktif Koruma</string>
+    <string name="service_inactive">Koruma Devre Dışı</string>
+    <string name="service_starting">Koruma Başlatılıyor...</string>
+    <string name="language_label">Dil</string>
+    <string name="info_button">Bilgi</string>
+    
+    <!-- Switch -->
+    <string name="switch_enable">Korumayı Etkinleştir</string>
+    <string name="switch_disable">Korumayı Devre Dışı Bırak</string>
+    
+    <!-- Warnings -->
+    <string name="initial_warning_title">Önemli Uyarı</string>
+    <string name="initial_warning_message">Silent Agent, kullanıcının her telefon görüşmesi yaptığında ve ses kaydı attığında otomatik olarak durur ve işlem bitiminden sonra devam eder.</string>
+    <string name="initial_warning_confirm">Anladım</string>
+    <string name="permission_required_title">İzin Gerekli</string>
+    <string name="permission_required_message">Koruma için mikrofon erişimi gereklidir. Silent Agent herhangi bir ses verisi kaydetmez veya göndermez.</string>
+    <string name="permission_grant">İzin Ver</string>
+    <string name="permission_denied">İzin Reddedildi</string>
+    
+    <!-- Info Dialog -->
+    <string name="info_title">Silent Agent Hakkında</string>
+    <string name="info_developer">Geliştirici: @tc4dy</string>
+    <string name="info_github">GitHub: github.com/tc4dy</string>
+    <string name="info_description">Silent Agent, ses donanımını sürekli rezerve ederek yetkisiz mikrofon erişimine karşı koruyan açık kaynaklı bir gizlilik aracıdır.</string>
+    <string name="info_privacy">Gizlilik Öncelikli: İnternet erişimi yok, veri toplama yok, analiz yok.</string>
+    <string name="info_close">Kapat</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Mikrofon Koruması</string>
+    <string name="notification_channel_desc">Aktif mikrofon koruma servisi</string>
+    <string name="notification_alert_channel_name">Güvenlik Uyarıları</string>
+    <string name="notification_alert_channel_desc">Mikrofon erişim ihlali uyarıları</string>
+    <string name="notification_title">Silent Agent Aktif</string>
+    <string name="notification_text">Mikrofon koruması etkin</string>
+    <string name="notification_alert_title">⚠️ Mikrofon Kullanılıyor</string>
+    <string name="notification_alert_text">Başka bir uygulama mikrofon kullanıyor: Ses kaydetme, arama veya başka ses işlemi tespit edildi. Çalışan uygulamalarınızı kontrol edin.</string>
+    <string name="notification_stop">Korumayı Durdur</string>
+    
+    <!-- Battery Optimization -->
+    <string name="battery_optimization_title">Pil Optimizasyonu</string>
+    <string name="battery_optimization_message">Sürekli koruma için Silent Agent için pil optimizasyonunu devre dışı bırakın.</string>
+    <string name="battery_optimization_disable">Optimizasyonu Kapat</string>
+    <string name="battery_optimization_skip">Atla</string>
+    
+    <!-- Status Messages -->
+    <string name="status_protecting">Mikrofon erişimi korunuyor</string>
+    <string name="status_stopped">Koruma durduruldu</string>
+    <string name="status_error">Servis hatası oluştu</string>
+    <string name="status_permission_missing">Mikrofon izni gerekli</string>
+    
+    <!-- Error Messages -->
+    <string name="error_service_start">Koruma servisi başlatılamadı</string>
+    <string name="error_audio_init">Ses donanımı başlatılamadı</string>
+    <string name="error_notification_failed">Bildirim sistemi hatası</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_language">Dil Ayarları</string>
+    <string name="settings_protection">Koruma Ayarları</string>
+    <string name="settings_about">Hakkında</string>
+    
+    <!-- Power Modes -->
+    <string name="power_mode_normal">Normal Mod</string>
+    <string name="power_mode_aggressive">Agresif Mod</string>
+    <string name="power_mode_switching">Agresif moda geçiliyor...</string>
+    
+    <!-- System -->
+    <string name="app_version">Sürüm 1.0.3</string>
+    <string name="copyright"> 2026 Silent Agent</string>
+</resources>

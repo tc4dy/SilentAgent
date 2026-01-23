@@ -1,0 +1,61 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Keystore and signing files
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+api-keys.xml
+
+# Log/OS Files
+*.log
+.DS_Store
+Thumbs.db
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Android build outputs
+app/build/
+*/build/
+
+# ProGuard
+proguard/
+*.pro
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# Node.js (if any)
+node_modules/
+
+# Maven
+target/
+
+# Kotlin
+*.ktp
+
+.externalNativeBuild/
+captures/

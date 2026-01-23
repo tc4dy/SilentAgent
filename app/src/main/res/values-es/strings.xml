@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silent Agent</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Silent Agent</string>
+    <string name="main_subtitle">Protección de Privacidad del Micrófono</string>
+    <string name="service_status_label">Estado del Servicio</string>
+    <string name="service_active">Protección Activa</string>
+    <string name="service_inactive">Protección Desactivada</string>
+    <string name="service_starting">Iniciando Protección...</string>
+    <string name="language_label">Idioma</string>
+    <string name="info_button">Info</string>
+    
+    <!-- Switch -->
+    <string name="switch_enable">Activar Protección</string>
+    <string name="switch_disable">Desactivar Protección</string>
+    
+    <!-- Warnings -->
+    <string name="initial_warning_title">Aviso Importante</string>
+    <string name="initial_warning_message">Silent Agent se pausa automáticamente durante cada llamada telefónica y grabación de voz que haga el usuario, luego se reanuda después de que se complete el proceso.</string>
+    <string name="initial_warning_confirm">Entiendo</string>
+    <string name="permission_required_title">Permiso Requerido</string>
+    <string name="permission_required_message">El acceso al micrófono es requerido para la protección. Silent Agent NO graba ni transmite ningún dato de audio.</string>
+    <string name="permission_grant">Conceder Permiso</string>
+    <string name="permission_denied">Permiso Denegado</string>
+    
+    <!-- Info Dialog -->
+    <string name="info_title">Acerca de Silent Agent</string>
+    <string name="info_developer">Desarrollador: @tc4dy</string>
+    <string name="info_github">GitHub: github.com/tc4dy</string>
+    <string name="info_description">Silent Agent es una herramienta de privacidad de código abierto que protege contra el acceso no autorizado al micrófono reservando continuamente el hardware de audio.</string>
+    <string name="info_privacy">Privacidad Primero: Sin acceso a internet, sin recopilación de datos, sin análisis.</string>
+    <string name="info_close">Cerrar</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Protección de Micrófono</string>
+    <string name="notification_channel_desc">Servicio de protección de micrófono activo</string>
+    <string name="notification_alert_channel_name">Alertas de Seguridad</string>
+    <string name="notification_alert_channel_desc">Alertas de violación de acceso al micrófono</string>
+    <string name="notification_title">SilentAgent Activo</string>
+    <string name="notification_text">Protección de micrófono activada</string>
+    <string name="notification_alert_title">⚠️ Micrófono en Uso</string>
+    <string name="notification_alert_text">Otra aplicación está usando el micrófono: Grabación, llamada u otra operación de audio detectada. Verifique sus aplicaciones en ejecución.</string>
+    <string name="notification_stop">Detener Protección</string>
+    
+    <!-- Battery Optimization -->
+    <string name="battery_optimization_title">Optimización de Batería</string>
+    <string name="battery_optimization_message">Desactive la optimización de batería para SilentAgent para asegurar protección continua.</string>
+    <string name="battery_optimization_disable">Desactivar Optimización</string>
+    <string name="battery_optimization_skip">Omitir</string>
+    
+    <!-- Status Messages -->
+    <string name="status_protecting">Protegiendo acceso al micrófono</string>
+    <string name="status_stopped">Protección detenida</string>
+    <string name="status_error">Ocurrió error de servicio</string>
+    <string name="status_permission_missing">Permiso de micrófono requerido</string>
+    
+    <!-- Error Messages -->
+    <string name="error_service_start">Falló inicio del servicio de protección</string>
+    <string name="error_audio_init">Falló inicialización del hardware de audio</string>
+    <string name="error_notification_failed">Error del sistema de notificación</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_language">Configuración de Idioma</string>
+    <string name="settings_protection">Configuración de Protección</string>
+    <string name="settings_about">Acerca de</string>
+    
+    <!-- Power Modes -->
+    <string name="power_mode_normal">Modo Normal</string>
+    <string name="power_mode_aggressive">Modo Agresivo</string>
+    <string name="power_mode_switching">Cambiando a modo agresivo...</string>
+    
+    <!-- System -->
+    <string name="app_version">Versión 1.0.3</string>
+    <string name="copyright"> Derechos de autor 2026 SilentAgent</string>
+</resources>

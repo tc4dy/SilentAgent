@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silent Agent</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Silent Agent</string>
+    <string name="main_subtitle">麦克风隐私保护</string>
+    <string name="service_status_label">服务状态</string>
+    <string name="service_active">活跃保护</string>
+    <string name="service_inactive">保护已禁用</string>
+    <string name="service_starting">正在启动保护...</string>
+    <string name="language_label">语言</string>
+    <string name="info_button">信息</string>
+    
+    <!-- Switch -->
+    <string name="switch_enable">启用保护</string>
+    <string name="switch_disable">禁用保护</string>
+    
+    <!-- Warnings -->
+    <string name="initial_warning_title">重要通知</string>
+    <string name="initial_warning_message">Silent Agent 在用户进行的每次电话通话和语音录音期间自动暂停，然后在过程完成后恢复。</string>
+    <string name="initial_warning_confirm">我理解</string>
+    <string name="permission_required_title">需要权限</string>
+    <string name="permission_required_message">保护需要麦克风访问权限。Silent Agent不会记录或传输任何音频数据。</string>
+    <string name="permission_grant">授予权限</string>
+    <string name="permission_denied">权限被拒绝</string>
+    
+    <!-- Info Dialog -->
+    <string name="info_title">关于 SilentAgent</string>
+    <string name="info_developer">开发者: @tc4dy</string>
+    <string name="info_github">GitHub: github.com/tc4dy</string>
+    <string name="info_description">SilentAgent是一个开源隐私工具，通过持续保留音频硬件来防止未经授权的麦克风访问。</string>
+    <string name="info_privacy">隐私优先: 无互联网访问, 无数据收集, 无分析。</string>
+    <string name="info_close">关闭</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">麦克风保护</string>
+    <string name="notification_channel_desc">活跃的麦克风保护服务</string>
+    <string name="notification_alert_channel_name">安全警报</string>
+    <string name="notification_alert_channel_desc">麦克风访问违规警报</string>
+    <string name="notification_title">SilentAgent 活跃</string>
+    <string name="notification_text">麦克风保护已启用</string>
+    <string name="notification_alert_title">⚠️ 麦克风正在使用</string>
+    <string name="notification_alert_text">另一个应用程序正在使用麦克风：检测到录音、通话或其他音频操作。检查您正在运行的应用程序。</string>
+    <string name="notification_stop">停止保护</string>
+    
+    <!-- Battery Optimization -->
+    <string name="battery_optimization_title">电池优化</string>
+    <string name="battery_optimization_message">禁用 SilentAgent 的电池优化以确保持续保护。</string>
+    <string name="battery_optimization_disable">禁用优化</string>
+    <string name="battery_optimization_skip">跳过</string>
+    
+    <!-- Status Messages -->
+    <string name="status_protecting">正在保护麦克风访问</string>
+    <string name="status_stopped">保护已停止</string>
+    <string name="status_error">服务错误发生</string>
+    <string name="status_permission_missing">需要麦克风权限</string>
+    
+    <!-- Error Messages -->
+    <string name="error_service_start">启动保护服务失败</string>
+    <string name="error_audio_init">音频硬件初始化失败</string>
+    <string name="error_notification_failed">通知系统错误</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_language">语言设置</string>
+    <string name="settings_protection">保护设置</string>
+    <string name="settings_about">关于</string>
+    
+    <!-- Power Modes -->
+    <string name="power_mode_normal">普通模式</string>
+    <string name="power_mode_aggressive">激进模式</string>
+    <string name="power_mode_switching">切换到激进模式...</string>
+    
+    <!-- System -->
+    <string name="app_version">版本 1.0.3</string>
+    <string name="copyright">© 2026 SilentAgent</string>
+</resources>

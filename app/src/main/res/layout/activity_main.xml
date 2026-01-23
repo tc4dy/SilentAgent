@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_primary"
+    android:padding="@dimen/padding_large"
+    tools:context=".MainActivity">
+
+    <!-- Header Section -->
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/margin_xlarge"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageButton
+            android:id="@+id/info_button"
+            android:layout_width="@dimen/icon_size_medium"
+            android:layout_height="@dimen/icon_size_medium"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_info"
+            android:contentDescription="@string/info_button"
+            android:tint="@color/icon_primary" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/app_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/main_title"
+            android:textSize="@dimen/text_size_xlarge"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:fontFamily="sans-serif-medium" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <!-- Main Content Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/main_card"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        app:cardCornerRadius="@dimen/corner_radius_large"
+        app:cardElevation="@dimen/elevation_medium"
+        app:cardBackgroundColor="@color/card_background"
+        app:layout_constraintTop_toBottomOf="@id/header_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/padding_xlarge">
+
+            <!-- Subtitle -->
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_subtitle"
+                android:textSize="@dimen/text_size_medium"
+                android:textColor="@color/text_secondary"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_large"
+                android:fontFamily="sans-serif" />
+
+            <!-- Service Status Section -->
+            <LinearLayout
+                android:id="@+id/status_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/margin_xlarge">
+
+                <TextView
+                    android:id="@+id/status_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/service_status_label"
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/text_tertiary"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-medium" />
+
+                <TextView
+                    android:id="@+id/status_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/service_inactive"
+                    android:textSize="@dimen/text_size_large"
+                    android:textColor="@color/text_primary"
+                    android:gravity="center"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:fontFamily="sans-serif-medium" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/divider_color"
+                    android:layout_marginVertical="@dimen/margin_medium" />
+
+            </LinearLayout>
+
+            <!-- Service Switch -->
+            <LinearLayout
+                android:id="@+id/switch_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/margin_xlarge"
+                android:padding="@dimen/padding_medium">
+
+                <TextView
+                    android:id="@+id/switch_label"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/switch_enable"
+                    android:textSize="@dimen/text_size_medium"
+                    android:textColor="@color/text_primary"
+                    android:gravity="start|center_vertical"
+                    android:fontFamily="sans-serif" />
+
+                <com.google.android.material.switchmaterial.SwitchMaterial
+                    android:id="@+id/service_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_medium"
+                    android:thumbTint="@color/switch_thumb_color"
+                    android:trackTint="@color/switch_track_color"
+                    android:scaleX="1.3"
+                    android:scaleY="1.3" />
+
+            </LinearLayout>
+
+            <!-- Language Selection -->
+            <LinearLayout
+                android:id="@+id/language_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="@dimen/margin_xlarge">
+
+                <TextView
+                    android:id="@+id/language_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/language_label"
+                    android:textSize="@dimen/text_size_small"
+                    android:textColor="@color/text_tertiary"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:textAllCaps="true"
+                    android:fontFamily="sans-serif-medium" />
+
+                <Spinner
+                    android:id="@+id/language_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinner_height"
+                    android:background="@drawable/spinner_background"
+                    android:popupBackground="@color/card_background"
+                    android:layout_marginTop="@dimen/margin_small" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Bottom Description Card -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottom_description_card"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_large"
+        app:cardCornerRadius="@dimen/corner_radius_medium"
+        app:cardElevation="@dimen/elevation_small"
+        app:cardBackgroundColor="@color/card_background"
+        app:layout_constraintBottom_toTopOf="@id/bottom_status"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/bottom_description_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bottom_description"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/text_secondary"
+            android:gravity="center"
+            android:padding="@dimen/padding_medium"
+            android:fontFamily="sans-serif" />
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Bottom Status Bar -->
+    <LinearLayout
+        android:id="@+id/bottom_status"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="@dimen/padding_medium"
+        android:background="@drawable/bottom_status_background"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <View
+            android:layout_width="@dimen/status_indicator_size"
+            android:layout_height="@dimen/status_indicator_size"
+            android:background="@drawable/status_indicator_inactive"
+            android:id="@+id/status_indicator" />
+
+        <TextView
+            android:id="@+id/bottom_status_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:text="@string/status_permission_missing"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/text_secondary"
+            android:fontFamily="sans-serif" />
+
+    </LinearLayout>
+
+    <!-- Loading Overlay -->
+    <LinearLayout
+        android:id="@+id/loading_overlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/overlay_background"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ProgressBar
+            android:id="@+id/loading_progress"
+            android:layout_width="@dimen/progress_size"
+            android:layout_height="@dimen/progress_size"
+            android:indeterminateTint="@color/accent_color" />
+
+        <TextView
+            android:id="@+id/loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_medium"
+            android:text="@string/service_starting"
+            android:textSize="@dimen/text_size_medium"
+            android:textColor="@color/text_primary"
+            android:fontFamily="sans-serif" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

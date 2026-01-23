@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silent Agent</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Silent Agent</string>
+    <string name="main_subtitle">Защита Конфиденциальности Микрофона</string>
+    <string name="service_status_label">Статус Сервиса</string>
+    <string name="service_active">Активная Защита</string>
+    <string name="service_inactive">Защита Отключена</string>
+    <string name="service_starting">Запуск Защиты...</string>
+    <string name="language_label">Язык</string>
+    <string name="info_button">Инфо</string>
+    
+    <!-- Switch -->
+    <string name="switch_enable">Включить Защиту</string>
+    <string name="switch_disable">Отключить Защиту</string>
+    
+    <!-- Warnings -->
+    <string name="initial_warning_title">Важное Уведомление</string>
+    <string name="initial_warning_message">Silent Agent автоматически приостанавливается во время каждого телефонного звонка и голосовой записи, которую делает пользователь, затем возобновляется после завершения процесса.</string>
+    <string name="initial_warning_confirm">Я Понимаю</string>
+    <string name="permission_required_title">Требуется Разрешение</string>
+    <string name="permission_required_message">Доступ к микрофону требуется для защиты. Silent Agent НЕ записывает и не передает какие-либо аудиоданные.</string>
+    <string name="permission_grant">Предоставить Разрешение</string>
+    <string name="permission_denied">Разрешение Отклонено</string>
+    
+    <!-- Info Dialog -->
+    <string name="info_title">О SilentAgent</string>
+    <string name="info_developer">Разработчик: @tc4dy</string>
+    <string name="info_github">GitHub: github.com/tc4dy</string>
+    <string name="info_description">SilentAgent - это инструмент конфиденциальности с открытым исходным кодом, который защищает от несанкционированного доступа к микрофону, постоянно резервируя аудиоустройство.</string>
+    <string name="info_privacy">Конфиденциальность Прежде Всего: Нет доступа к интернету, нет сбора данных, нет аналитики.</string>
+    <string name="info_close">Закрыть</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Защита Микрофона</string>
+    <string name="notification_channel_desc">Активный сервис защиты микрофона</string>
+    <string name="notification_alert_channel_name">Уведомления Безопасности</string>
+    <string name="notification_alert_channel_desc">Уведомления о нарушении доступа к микрофону</string>
+    <string name="notification_title">SilentAgent Активен</string>
+    <string name="notification_text">Защита микрофона включена</string>
+    <string name="notification_alert_title">⚠️ Микрофон используется</string>
+    <string name="notification_alert_text">Другое приложение использует микрофон: Обнаружена запись, звонок или другая аудиооперация. Проверьте ваши запущенные приложения.</string>
+    <string name="notification_stop">Остановить Защиту</string>
+    
+    <!-- Battery Optimization -->
+    <string name="battery_optimization_title">Оптимизация Батареи</string>
+    <string name="battery_optimization_message">Отключите оптимизацию батареи для SilentAgent, чтобы обеспечить непрерывную защиту.</string>
+    <string name="battery_optimization_disable">Отключить Оптимизацию</string>
+    <string name="battery_optimization_skip">Пропустить</string>
+    
+    <!-- Status Messages -->
+    <string name="status_protecting">Защита доступа к микрофону</string>
+    <string name="status_stopped">Защита остановлена</string>
+    <string name="status_error">Произошла ошибка сервиса</string>
+    <string name="status_permission_missing">Требуется разрешение микрофона</string>
+    
+    <!-- Error Messages -->
+    <string name="error_service_start">Не удалось запустить сервис защиты</string>
+    <string name="error_audio_init">Не удалось инициализировать аудиоустройство</string>
+    <string name="error_notification_failed">Ошибка системы уведомлений</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_language">Настройки Языка</string>
+    <string name="settings_protection">Настройки Защиты</string>
+    <string name="settings_about">О Программе</string>
+    
+    <!-- Power Modes -->
+    <string name="power_mode_normal">Обычный Режим</string>
+    <string name="power_mode_aggressive">Агрессивный Режим</string>
+    <string name="power_mode_switching">Переключение в агрессивный режим...</string>
+    
+    <!-- System -->
+    <string name="app_version">Версия 1.0.3</string>
+    <string name="copyright"> 2026 SilentAgent</string>
+</resources>

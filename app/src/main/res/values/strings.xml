@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silent Agent</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Silent Agent</string>
+    <string name="main_subtitle">Microphone Privacy Protection</string>
+    <string name="service_status_label">Service Status</string>
+    <string name="service_active">Active Protection</string>
+    <string name="service_inactive">Protection Disabled</string>
+    <string name="service_starting">Starting Protection...</string>
+    <string name="language_label">Language</string>
+    <string name="info_button">Info</string>
+    
+    <!-- Switch -->
+    <string name="switch_enable">Enable Protection</string>
+    <string name="switch_disable">Disable Protection</string>
+    
+    <!-- Warnings -->
+    <string name="initial_warning_title">Important Warning</string>
+    <string name="initial_warning_message">Silent Agent automatically pauses during every phone call and voice recording the user makes, then resumes after the process is completed.</string>
+    <string name="initial_warning_confirm">I Understand</string>
+    <string name="permission_required_title">Permission Required</string>
+    <string name="permission_required_message">Microphone access is required for protection. Silent Agent does NOT record or transmit any audio data.</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_denied">Permission Denied</string>
+    
+    <!-- Info Dialog -->
+    <string name="info_title">About Silent Agent</string>
+    <string name="info_developer">Developer: @tc4dy</string>
+    <string name="info_github">GitHub: github.com/tc4dy</string>
+    <string name="info_description">Silent Agent is an open-source privacy tool that protects against unauthorized microphone access by continuously reserving audio hardware.</string>
+    <string name="info_privacy">Privacy First: No internet access, no data collection, no analytics.</string>
+    <string name="info_close">Close</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">Microphone Protection</string>
+    <string name="notification_channel_desc">Active microphone protection service</string>
+    <string name="notification_alert_channel_name">Security Alerts</string>
+    <string name="notification_alert_channel_desc">Microphone access violation alerts</string>
+    <string name="notification_title">Silent Agent Active</string>
+    <string name="notification_text">Microphone protection enabled</string>
+    <string name="notification_alert_title">⚠️ Microphone in Use</string>
+    <string name="notification_alert_text">Another app is using the microphone: Recording, calling, or other audio operation detected. Check your running apps.</string>
+    <string name="notification_stop">Stop Protection</string>
+    
+    <!-- Battery Optimization -->
+    <string name="battery_optimization_title">Battery Optimization</string>
+    <string name="battery_optimization_message">Disable battery optimization for Silent Agent to ensure continuous protection.</string>
+    <string name="battery_optimization_disable">Disable Optimization</string>
+    <string name="battery_optimization_skip">Skip</string>
+    
+    <!-- Status Messages -->
+    <string name="status_protecting">Protecting microphone access</string>
+    <string name="status_stopped">Protection stopped</string>
+    <string name="status_error">Service error occurred</string>
+    <string name="status_permission_missing">Microphone permission required</string>
+    
+    <!-- Error Messages -->
+    <string name="error_service_start">Failed to start protection service</string>
+    <string name="error_audio_init">Audio hardware initialization failed</string>
+    <string name="error_notification_failed">Notification system error</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language Settings</string>
+    <string name="settings_protection">Protection Settings</string>
+    <string name="settings_about">About</string>
+    <string name="settings_button">Settings</string>
+    <string name="bottom_description">Silent Agent automatically pauses during every phone call and voice recording the user makes, then resumes after the process is completed.</string>
+    
+    <!-- Power Modes -->
+    <string name="power_mode_normal">Normal Mode</string>
+    <string name="power_mode_aggressive">Aggressive Mode</string>
+    <string name="power_mode_switching">Switching to aggressive mode...</string>
+    
+    <!-- System -->
+    <string name="app_version">Version 1.0.3</string>
+    <string name="copyright"> 2026 Silent Agent</string>
+</resources>

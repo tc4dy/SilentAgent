@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/padding_large">
+
+    <TextView
+        android:id="@+id/silent_agent_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Silent Agent"
+        android:textSize="@dimen/text_size_large"
+        android:textColor="@color/text_primary"
+        android:layout_marginBottom="@dimen/margin_large"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center" />
+
+</LinearLayout>

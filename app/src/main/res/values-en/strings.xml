@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SilentAgent</string>
+    
+    <string name="main_title">SilentAgent</string>
+    <string name="main_subtitle">Microphone Privacy Protection</string>
+    <string name="service_status_label">Service Status</string>
+    <string name="service_active">Active Protection</string>
+    <string name="service_inactive">Protection Disabled</string>
+    <string name="service_starting">Starting Protection...</string>
+    <string name="language_label">Language</string>
+    <string name="info_button">Info</string>
+    
+    <string name="switch_enable">Enable Protection</string>
+    <string name="switch_disable">Disable Protection</string>
+    
+    <string name="initial_warning_title">Important Warning</string>
+    <string name="initial_warning_message">SilentAgent protects your privacy by constantly reserving audio hardware. Please disable it during phone calls for proper functionality.</string>
+    <string name="initial_warning_confirm">I Understand</string>
+    <string name="permission_required_title">Permission Required</string>
+    <string name="permission_required_message">Microphone access is required for protection. SilentAgent does not record or send any audio data.</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_denied">Permission Denied</string>
+    
+    <string name="info_title">About SilentAgent</string>
+    <string name="info_developer">Developer: @tc4dy</string>
+    <string name="info_github">GitHub: github.com/tc4dy</string>
+    <string name="info_description">SilentAgent is an open-source privacy tool that protects against unauthorized microphone access by constantly reserving audio hardware.</string>
+    <string name="info_privacy">Privacy First: No internet access, no data collection, no analytics.</string>
+    <string name="info_close">Close</string>
+    
+    <string name="notification_channel_name">Microphone Protection</string>
+    <string name="notification_channel_desc">Active microphone protection service</string>
+    <string name="notification_alert_channel_name">Security Alerts</string>
+    <string name="notification_alert_channel_desc">Microphone access violation alerts</string>
+    <string name="notification_title">SilentAgent Active</string>
+    <string name="notification_text">Microphone protection enabled</string>
+    <string name="notification_alert_title">⚠️ Mic Access Detected</string>
+    <string name="notification_alert_text">Another app tried to access the microphone. Check your running apps.</string>
+    <string name="notification_stop">Stop Protection</string>
+    
+    <string name="battery_optimization_title">Battery Optimization</string>
+    <string name="battery_optimization_message">Disable battery optimization for SilentAgent for continuous protection.</string>
+    <string name="battery_optimization_disable">Turn Off Optimization</string>
+    <string name="battery_optimization_skip">Skip</string>
+    
+    <string name="status_protecting">Microphone access protected</string>
+    <string name="status_stopped">Protection stopped</string>
+    <string name="status_error">Service error occurred</string>
+    <string name="status_permission_missing">Mic permission required</string>
+    
+    <string name="error_service_start">Protection service failed to start</string>
+    <string name="error_audio_init">Audio hardware failed to initialize</string>
+    <string name="error_notification_failed">Notification system error</string>
+    
+    <string name="settings_title">Settings</string>
+    <string name="settings_language">Language Settings</string>
+    <string name="settings_protection">Protection Settings</string>
+    <string name="settings_about">About</string>
+    
+    <string name="power_mode_normal">Normal Mode</string>
+    <string name="power_mode_aggressive">Aggressive Mode</string>
+    <string name="power_mode_switching">Switching to aggressive mode...</string>
+    
+    <string name="app_version">Version 1.0.3</string>
+    <string name="copyright">© 2026 SilentAgent</string>
+</resources>

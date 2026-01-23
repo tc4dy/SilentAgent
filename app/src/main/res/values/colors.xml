@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#1976D2</color>
+    <color name="primary_dark_color">#1565C0</color>
+    <color name="accent_color">#FF4081</color>
+    
+    <color name="background_primary">#FAFAFA</color>
+    <color name="background_secondary">#FFFFFF</color>
+    <color name="background_card">#FFFFFF</color>
+    <color name="background_dark">#121212</color>
+    <color name="background_dark_secondary">#1E1E1E</color>
+    
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_tertiary">#BDBDBD</color>
+    <color name="text_primary_dark">#FFFFFF</color>
+    <color name="text_secondary_dark">#B3B3B3</color>
+    <color name="text_tertiary_dark">#808080</color>
+    
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_background_dark">#1E1E1E</color>
+    <color name="card_stroke_color">#E0E0E0</color>
+    <color name="card_stroke_color_dark">#333333</color>
+    
+    <color name="status_bar_color">#1976D2</color>
+    <color name="navigation_bar_color">#FFFFFF</color>
+    <color name="navigation_bar_color_dark">#121212</color>
+    
+    <color name="icon_primary">#1976D2</color>
+    <color name="icon_secondary">#757575</color>
+    <color name="icon_active">#4CAF50</color>
+    <color name="icon_inactive">#9E9E9E</color>
+    <color name="icon_warning">#FF9800</color>
+    <color name="icon_error">#F44336</color>
+    
+    <color name="switch_thumb_color">#FFFFFF</color>
+    <color name="switch_track_color">#BDBDBD</color>
+    <color name="switch_track_active">#4CAF50</color>
+    
+    <color name="progress_track_color">#E0E0E0</color>
+    <color name="progress_background">#F5F5F5</color>
+    
+    <color name="divider_color">#E0E0E0</color>
+    <color name="divider_color_dark">#333333</color>
+    
+    <color name="scrollbar_color">#BDBDBD</color>
+    <color name="scrollbar_track_color">#F5F5F5</color>
+    
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="button_secondary_text">#1976D2</color>
+    
+    <color name="status_active">#4CAF50</color>
+    <color name="status_inactive">#9E9E9E</color>
+    <color name="status_warning">#FF9800</color>
+    <color name="status_error">#F44336</color>
+    
+    <color name="overlay_background">#80000000</color>
+    <color name="overlay_light">#40000000</color>
+    
+    <color name="material_red_500">#F44336</color>
+    <color name="material_red_700">#D32F2F</color>
+    <color name="material_green_500">#4CAF50</color>
+    <color name="material_green_700">#388E3C</color>
+    <color name="material_blue_500">#2196F3</color>
+    <color name="material_blue_700">#1976D2</color>
+    <color name="material_orange_500">#FF9800</color>
+    <color name="material_orange_700">#F57C00</color>
+    <color name="material_grey_50">#FAFAFA</color>
+    <color name="material_grey_100">#F5F5F5</color>
+    <color name="material_grey_200">#EEEEEE</color>
+    <color name="material_grey_300">#E0E0E0</color>
+    <color name="material_grey_400">#BDBDBD</color>
+    <color name="material_grey_500">#9E9E9E</color>
+    
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent_black">#80000000</color>
+    <color name="semi_transparent_white">#80FFFFFF</color>
+</resources>

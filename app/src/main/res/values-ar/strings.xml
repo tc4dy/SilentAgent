@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Silent Agent</string>
+    
+    <!-- Main Activity -->
+    <string name="main_title">Silent Agent</string>
+    <string name="main_subtitle">حماية خصوصية الميكروفون</string>
+    <string name="service_status_label">حالة الخدمة</string>
+    <string name="service_active">حماية نشطة</string>
+    <string name="service_inactive">الحماية معطلة</string>
+    <string name="service_starting">جاري بدء الحماية...</string>
+    <string name="language_label">اللغة</string>
+    <string name="info_button">معلومات</string>
+    
+    <!-- Switch -->
+    <string name="switch_enable">تفعيل الحماية</string>
+    <string name="switch_disable">تعطيل الحماية</string>
+    
+    <!-- Warnings -->
+    <string name="initial_warning_title">إشعار مهم</string>
+    <string name="initial_warning_message">Silent Agent يتوقف تلقائياً أثناء كل مكالمة هاتفية وتسجيل صوتي يقوم به المستخدم، ثم يستأنف بعد اكتمال العملية.</string>
+    <string name="initial_warning_confirm">أفهم</string>
+    <string name="permission_required_title">إذن مطلوب</string>
+    <string name="permission_required_message">الوصول إلى الميكروفون مطلوب للحماية. Silent Agent لا يسجل أو ينقل أي بيانات صوتية.</string>
+    <string name="permission_grant">منح الإذن</string>
+    <string name="permission_denied">الإذن مرفوض</string>
+    
+    <!-- Info Dialog -->
+    <string name="info_title">حول Silent Agent</string>
+    <string name="info_developer">المطور: @tc4dy</string>
+    <string name="info_github">GitHub: github.com/tc4dy</string>
+    <string name="info_description">Silent Agent هو أداة خصوصية مفتوحة المصدر تحمي ضد الوصول غير المصرح به إلى الميكروفون عن طريق حجز الأجهزة الصوتية بشكل مستمر.</string>
+    <string name="info_privacy">الخصوصية أولاً: لا وصول للإنترنت، لا جمع بيانات، لا تحليلات.</string>
+    <string name="info_close">إغلاق</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_name">حماية الميكروفون</string>
+    <string name="notification_channel_desc">خدمة حماية الميكروفون النشطة</string>
+    <string name="notification_alert_channel_name">تنبيهات الأمان</string>
+    <string name="notification_alert_channel_desc">تنبيهات انتهاك الوصول إلى الميكروفون</string>
+    <string name="notification_title">Silent Agent نشط</string>
+    <string name="notification_text">حماية الميكروفون مفعلة</string>
+    <string name="notification_alert_title">⚠️ الميكروفون قيد الاستخدام</string>
+    <string name="notification_alert_text">تطبيق آخر يستخدم الميكروفون: تم اكتشاف التسجيل أو الاتصال أو عملية صوتية أخرى. تحقق من التطبيقات التي تعمل لديك.</string>
+    <string name="notification_stop">إيقاف الحماية</string>
+    
+    <!-- Battery Optimization -->
+    <string name="battery_optimization_title">تحسين البطارية</string>
+    <string name="battery_optimization_message">قم بتعطيل تحسين البطارية لـ Silent Agent لضمان الحماية المستمرة.</string>
+    <string name="battery_optimization_disable">تعطيل التحسين</string>
+    <string name="battery_optimization_skip">تخطي</string>
+    
+    <!-- Status Messages -->
+    <string name="status_protecting">حماية الوصول إلى الميكروفون</string>
+    <string name="status_stopped">تم إيقاف الحماية</string>
+    <string name="status_error">حدث خطأ في الخدمة</string>
+    <string name="status_permission_missing">إذن الميكروفون مطلوب</string>
+    
+    <!-- Error Messages -->
+    <string name="error_service_start">فشل بدء خدمة الحماية</string>
+    <string name="error_audio_init">فشل تهيئة الأجهزة الصوتية</string>
+    <string name="error_notification_failed">خطأ في نظام الإشعارات</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">إعدادات اللغة</string>
+    <string name="settings_protection">إعدادات الحماية</string>
+    <string name="settings_about">حول</string>
+    
+    <!-- Power Modes -->
+    <string name="power_mode_normal">الوضع العادي</string>
+    <string name="power_mode_aggressive">الوضع العدواني</string>
+    <string name="power_mode_switching">جاري التبديل إلى الوضع العدواني...</string>
+    
+    <!-- System -->
+    <string name="app_version">الإصدار 1.0.3</string>
+    <string name="copyright">© 2026 Silent Agent</string>
+</resources>

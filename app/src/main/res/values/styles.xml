@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base Application Theme -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="android:colorBackground">@color/background_primary</item>
+        <item name="android:windowBackground">@color/background_primary</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/status_bar_color</item>
+        <item name="android:navigationBarColor">@color/navigation_bar_color</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:colorEdgeEffect">@color/accent_color</item>
+        <item name="android:scrollbarThumbHorizontal">@color/scrollbar_color</item>
+        <item name="android:scrollbarThumbVertical">@color/scrollbar_color</item>
+        <item name="android:scrollbarTrackHorizontal">@color/scrollbar_track_color</item>
+        <item name="android:scrollbarTrackVertical">@color/scrollbar_track_color</item>
+        <item name="android:buttonStyle">@style/ButtonPrimary</item>
+        <item name="android:spinnerStyle">@style/SpinnerStyle</item>
+        <item name="android:switchStyle">@style/SwitchStyle</item>
+        <item name="cardViewStyle">@style/CardViewStyle</item>
+    </style>
+
+    <!-- CardView Style -->
+    <style name="CardViewStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardCornerRadius">@dimen/corner_radius_medium</item>
+        <item name="cardElevation">@dimen/elevation_small</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="strokeColor">@color/card_stroke_color</item>
+        <item name="strokeWidth">@dimen/stroke_width_thin</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="ButtonPrimary" parent="Widget.Material3.Button">
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:backgroundTint">@color/accent_color</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingHorizontal">@dimen/padding_large</item>
+        <item name="android:paddingVertical">@dimen/padding_medium</item>
+        <item name="cornerRadius">@dimen/corner_radius_medium</item>
+        <item name="android:elevation">@dimen/elevation_small</item>
+    </style>
+
+    <style name="ButtonSecondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textColor">@color/accent_color</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:paddingHorizontal">@dimen/padding_large</item>
+        <item name="android:paddingVertical">@dimen/padding_medium</item>
+        <item name="cornerRadius">@dimen/corner_radius_medium</item>
+        <item name="strokeColor">@color/accent_color</item>
+        <item name="strokeWidth">@dimen/stroke_width_thin</item>
+    </style>
+
+    <!-- Switch Style -->
+    <style name="SwitchStyle" parent="Widget.Material3.CompoundButton.Switch">
+        <item name="android:thumbTint">@color/switch_thumb_color</item>
+        <item name="android:trackTint">@color/switch_track_color</item>
+        <item name="android:minWidth">@dimen/switch_min_width</item>
+        <item name="android:minHeight">@dimen/switch_min_height</item>
+    </style>
+
+    <!-- Spinner Style -->
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
+    <item name="android:background">?android:attr/selectableItemBackground</item>
+    <item name="android:popupBackground">@color/card_background</item>
+    <item name="android:textColor">@color/text_primary</item>
+    <item name="android:textSize">@dimen/text_size_medium</item>
+    <item name="android:padding">@dimen/padding_medium</item>
+</style>
+
+    <!-- TextView Styles -->
+    <style name="TextAppearance.Primary" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.Secondary" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.Tertiary" parent="TextAppearance.Material3.BodySmall">
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:textSize">@dimen/text_size_xsmall</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="TextAppearance.Title" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TextAppearance.Subtitle" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <!-- Dialog Styles -->
+    <style name="DialogTheme" parent="Theme.Material3.DayNight.Dialog">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="android:windowBackground">@color/card_background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+    </style>
+
+    <style name="AlertDialogTheme" parent="Theme.Material3.DayNight.Dialog.Alert">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+        <item name="android:windowBackground">@color/card_background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="buttonBarPositiveButtonStyle">@style/ButtonPrimary</item>
+        <item name="buttonBarNegativeButtonStyle">@style/ButtonSecondary</item>
+        <item name="android:textColor">@color/accent_color</item>
+    </style>
+
+    <!-- Progress Bar Style -->
+    <style name="ProgressBarStyle" parent="Widget.Material3.LinearProgressIndicator">
+        <item name="indicatorColor">@color/accent_color</item>
+        <item name="trackColor">@color/progress_track_color</item>
+        <item name="trackThickness">@dimen/progress_thickness</item>
+    </style>
+
+    <style name="CircularProgressBarStyle" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="indicatorColor">@color/accent_color</item>
+        <item name="trackColor">@color/progress_track_color</item>
+        <item name="indicatorSize">@dimen/progress_size</item>
+    </style>
+
+    <!-- Toolbar Style -->
+    <style name="ToolbarStyle" parent="Widget.Material3.Toolbar">
+        <item name="titleTextAppearance">@style/TextAppearance.Title</item>
+        <item name="subtitleTextAppearance">@style/TextAppearance.Secondary</item>
+        <item name="android:background">@color/primary_color</item>
+        <item name="titleTextColor">@color/text_primary</item>
+        <item name="subtitleTextColor">@color/text_secondary</item>
+        <item name="android:elevation">@dimen/elevation_toolbar</item>
+    </style>
+
+    <!-- Status Indicator Styles -->
+    <style name="StatusIndicatorActive">
+        <item name="android:background">@drawable/status_indicator_active</item>
+        <item name="android:layout_width">@dimen/status_indicator_size</item>
+        <item name="android:layout_height">@dimen/status_indicator_size</item>
+    </style>
+
+    <style name="StatusIndicatorInactive">
+        <item name="android:background">@drawable/status_indicator_inactive</item>
+        <item name="android:layout_width">@dimen/status_indicator_size</item>
+        <item name="android:layout_height">@dimen/status_indicator_size</item>
+    </style>
+
+    <!-- Loading Overlay Style -->
+    <style name="LoadingOverlay">
+        <item name="android:background">@color/overlay_background</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <!-- Bottom Status Bar Style -->
+    <style name="BottomStatusBar">
+        <item name="android:background">@drawable/bottom_status_background</item>
+        <item name="android:padding">@dimen/padding_medium</item>
+        <item name="android:elevation">@dimen/elevation_small</item>
+    </style>
+
+    <!-- Icon Button Style -->
+    <style name="IconButton" parent="Widget.Material3.Button.IconButton">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:tint">@color/icon_primary</item>
+        <item name="android:minWidth">@dimen/icon_size_medium</item>
+        <item name="android:minHeight">@dimen/icon_size_medium</item>
+        <item name="android:maxWidth">@dimen/icon_size_large</item>
+        <item name="android:maxHeight">@dimen/icon_size_large</item>
+    </style>
+
+    <!-- Divider Style -->
+    <style name="Divider">
+        <item name="android:background">@color/divider_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divider_thickness</item>
+        <item name="android:layout_marginVertical">@dimen/margin_medium</item>
+    </style>
+
+</resources>
